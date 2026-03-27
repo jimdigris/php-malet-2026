@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <form class="form-phpmailer js-form-phpmailer" id="form-phpmailer--1" enctype="multipart/form-data" method="post" data-handler="script.php">
+        <div class="form-phpmailer__inputs">
+            <input type="hidden" name="formName" value="Название формы">
+            <input type="hidden" name="formPageLink" value="#">
+            <input type="text" name="phone_confirm" style="display:none" tabindex="-1" autocomplete="off">
+
+            <input class="form-phpmailer__input" type="text" name="name" placeholder="Ваше имя" required>
+            <input class="form-phpmailer__input" type="tel" name="phone" placeholder="Телефон" pattern="[+0-9]*" required>
+            <input class="form-phpmailer__input" type="email" name="email" placeholder="Ваш email">
+            <textarea class="form-phpmailer__input" name="textarea" placeholder="Сообщение"></textarea>
+        </div>
+
+        <div class="form-phpmailer__result js-form-phpmailer__result">Результат об удачной или нет отправки</div>
+
+        <div class="form-phpmailer__buttons">
+            <button type="submit" class="form-phpmailer__button form-phpmailer__button--send js-form-phpmailer__button--send">Отправить</button>
+        </div>
+
+        <div class="form-phpmailer__politics">
+            <input class="form-phpmailer__politics--checkbox js-form-phpmailer__politics--checkbox" id="form-phpmailer__politics-check--1" type="checkbox" name="policy" required>
+            <label class="form-phpmailer__politics--label js-form-phpmailer__politics--label" for="form-phpmailer__politics-check--1"></label>
+            <label class="form-phpmailer__politics--text js-form-phpmailer__politics--text" for="form-phpmailer__politics-check--1"> Я согласен на обработку моих персональных данных *</label>
+        </div>
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+
+    <form class="form-phpmailer js-form-phpmailer" id="form-phpmailer--2" enctype="multipart/form-data" method="post" data-handler="script.php">
+        <div class="form-phpmailer__inputs">
+            <input type="hidden" name="formName" value="Название формы">
+            <input type="hidden" name="formPageLink" value="#">
+            <input type="text" name="phone_confirm" style="display:none" tabindex="-1" autocomplete="off">
+
+            <input class="form-phpmailer__input" type="text" name="name" placeholder="Ваше имя" required>
+            <input class="form-phpmailer__input" type="tel" name="phone" placeholder="Телефон" pattern="[+0-9]*" required>
+            <input class="form-phpmailer__input" type="email" name="email" placeholder="Ваш email">
+            <textarea class="form-phpmailer__input" name="textarea" placeholder="Сообщение"></textarea>
+        </div>
+
+        <div class="form-phpmailer__result js-form-phpmailer__result">Результат об удачной или нет отправки</div>
+
+        <div class="form-phpmailer__buttons">
+            <button type="submit" class="form-phpmailer__button form-phpmailer__button--send js-form-phpmailer__button--send">Отправить</button>
+        </div>
+
+        <div class="form-phpmailer__politics">
+            <input class="form-phpmailer__politics--checkbox js-form-phpmailer__politics--checkbox" id="form-phpmailer__politics-check--2" type="checkbox" name="policy" required>
+            <label class="form-phpmailer__politics--label js-form-phpmailer__politics--label" for="form-phpmailer__politics-check--2"></label>
+            <label class="form-phpmailer__politics--text js-form-phpmailer__politics--text" for="form-phpmailer__politics-check--2"> Я согласен на обработку моих персональных данных *</label>
+        </div>
+    </form>
+
+
+
+    <script src="script.js?v=2"></script>
+
+</body>
+
+</html>
